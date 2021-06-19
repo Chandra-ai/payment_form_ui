@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<form action="" method="get">
+			<h1>Payment Form</h1>
+			<hr>
+			<h2>User Information</h2>
+			Name:<br><input type="text" name="name" required placeholder="Entre name " id="name"><br>
+			<fieldset>
+				<legend>Gender</legend>
+			Male <input type="radio" name="gender" id ="male" >	
+			female <input type="radio" name="gender" id ="female"><br>
+
+		</fieldset>
+		Address:<br>
+		<textarea placeholder="adress" required= ></textarea><br>
+		Email:<br><input type="email" name="email" required="" placeholder="example@gmail.com" id ="email"><br>
+		password:<br><input type="password" name="password" placeholder="password" id="pin"><br>
+		pincode	:<br><input type="number" name="pin" placeholder="pincode" id="pin"><br>
+		<h2>Payment information</h2>
+		CardType : <br><select id="ct">
+				<option>--select card tye --</option>
+				<option>RuPay</option>
+				<option>MasterCard</option>
+				<option>Visa</option>
+		</select><br>
+		Card number <br><input type="number" name="" placeholder="1111-2222-3333-4444" id="cn"><br>
+		Expiration Date:<br><input type="date" name="expdate" id="ed">
+		<br>
+		<br>
+
+
+		<button type="submit"class="btn" style="cursor: pointer;width: 100%;background-color: green;color:white;font-size: 20px;border:1px solid green;border-radius: 6px;padding:8px;">Paynow</button>
+
+			
+		</form>		
+	</div>
+</body>
+</html>
